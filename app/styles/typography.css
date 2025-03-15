@@ -1,0 +1,45 @@
+:root {
+    --font-Spicy-Rice: "Spicy Rice", serif;
+    --font-roboto-mono: "Roboto Mono", monospace;
+    --primary-text-color: black;
+    --secondary-text-color:white;
+    --secondary-text-size:1.2rem;
+  }
+  
+  body {
+    font-family: var(--font-roboto-mono);
+  }
+  
+  .mono-text {
+    font-family: var(--font-Spicy-Rice) ;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-text-color);
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-text-color);
+  }
+
+  h3 {
+    font-size: .5rem;
+    font-weight: 600;
+    color: var(--secondary-text-color);
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  Link {
+    text-decoration: none;
+    cursor: pointer;
+  }
