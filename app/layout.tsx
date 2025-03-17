@@ -23,8 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${robotoMono.variable}`}>
       <body className="antialiased">
-      <Navbar />
-        {children}</body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
