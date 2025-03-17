@@ -5,10 +5,9 @@ import { RiHomeLine } from "react-icons/ri";
 import { IoIosInformationCircle } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { IoMdContact } from "react-icons/io";
-import { twMerge } from "tailwind-merge";
-import clsx from "clsx";
+import { type NavLinksType } from "@/app/types/navLinksType";
 const listClassname:string = "text-[var(--secondary-text-color)] text-[1.2rem] space-x-12"
-const navItems = [
+const navItems:NavLinksType[] = [
     { href: "/", label: "Home",icon:<RiHomeLine className={listClassname} /> },
     { href: "/about", label: "About", icon:<IoIosInformationCircle className={listClassname} /> },
     { href: "/projects", label: "Projects",icon:<GrProjects className={listClassname} />},

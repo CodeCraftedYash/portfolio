@@ -6,15 +6,17 @@ import { IoIosInformationCircle } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { IoMdContact } from "react-icons/io";
 import { motion } from "motion/react";
+import { type NavLinksType } from "@/app/types/navLinksType";
+
 const listClassname:string = "text-[var(--secondary-text-color)] text-[1.2rem] space-x-12"
-const navItems = [
+const navItems:NavLinksType[] = [
     { href: "/", label: "Home",icon:<RiHomeLine className={listClassname} /> },
     { href: "/about", label: "About", icon:<IoIosInformationCircle className={listClassname} /> },
     { href: "/projects", label: "Projects",icon:<GrProjects className={listClassname} />},
     { href: "/contact", label: "Contact Me",icon:<IoMdContact className={listClassname} />},
   ];
   const listitemClassname:string =
-    "flex flex-nowrap items-center space-x-2 sm:hover:scale-105 text-[var(--secondary-text-color)] text-nowrap ml-2 mb-2";
+    "flex flex-nowrap items-center space-x-2 sm:hover:scale-105 text-[var(--secondary-text-color)] text-nowrap ml-2";
 
   export default function HamburgerLinks() {
     const currentPath:string = usePathname();
