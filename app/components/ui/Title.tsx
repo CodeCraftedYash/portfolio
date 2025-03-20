@@ -10,7 +10,7 @@ function Title({text,variant}:{text:string,variant:"primary"|"secondary"|"tertia
     <div className="text-[var(--background)]">
         <h4 className={clsx("text-white text-center",
           spicyRice.className,
-          variant === "primary" ? "text-[2.1rem] sm:text-[3.5rem]" : variant==="secondary"?"text-[1.6rem] sm:text-[2rem]":"text-[.7rem ] sm:text-[1.3rem]"
+          variant === "primary" ? "text-[1.7rem] sm:text-[3.5rem]" : variant==="secondary"?"text-[1.2rem] sm:text-[2rem]":"text-[.5rem ] sm:text-[1.3rem]"
         )}
         style={{
            wordSpacing: "0.2em",
