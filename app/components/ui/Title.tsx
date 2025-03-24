@@ -8,7 +8,7 @@ const spicyRice = Spicy_Rice({
 function Title({text,variant}:{text:string,variant:"primary"|"secondary"|"tertiary"}) {
   return (
     <div className="text-[var(--background)]">
-        <h4 className={clsx("text-white text-center",
+        <h4 className={clsx("text-white",
           spicyRice.className,
           variant === "primary" ? "text-[1.7rem] sm:text-[3.5rem]" : variant==="secondary"?"text-[1.2rem] sm:text-[2rem]":"text-[.5rem ] sm:text-[1.3rem]"
         )}
