@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="w-full flex flex-col items-center justify-center">
         <div className="w-full">
-            <div className="bg-[var(--secondary-background)] ">
+            <div className="bg-[var(--secondary-background)] text-center py-4">
                 <Title text="Skills" variant="primary"/>
             </div>
             <div className="w-full flex flex-wrap justify-center items-center gap-8 p-8">
