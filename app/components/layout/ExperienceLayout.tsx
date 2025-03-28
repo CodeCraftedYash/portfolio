@@ -5,7 +5,7 @@ import Title from "../ui/Title"
 function ExperienceLayout() {
   return (
       <div className="w-full">
-        <div className="w-full bg-[var(--secondary-background)] flex flex-col items-center pb-8">
+        <div className="w-full bg-[var(--secondary-background)] flex flex-col items-center pb-16">
           <div className="my-4">
             <Title text="Experience" variant="primary"/>
           </div>
