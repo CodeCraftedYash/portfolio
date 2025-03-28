@@ -2,7 +2,6 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
-import NavLinks from "../ui/NavLinks";
 import HamburgerLinks from "../ui/HamburgerLinks";
 function HamburgerMenu() {
     const [isClicked,setIsClicked] = useState<boolean> (false);
