@@ -9,7 +9,7 @@ const Button: React.FC<ButtonProps> = ({
   children,
 }) => {
   const baseStyles =
-    "rounded-2xl font-semibold shadow-md select-none border-2 border-[var(--background)]";
+    "rounded-2xl font-semibold shadow-md select-none border-2 border-[var(--background)] hover:cursor-pointer";
 
   const variantStyles =
     variant === "primary"
