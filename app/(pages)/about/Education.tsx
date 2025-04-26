@@ -7,7 +7,7 @@ function Education() {
         <Title text='Education' variant='primary'/>
         </div>
         {EducationData.map((item,index)=>(
-            <div className='w-[80%] bg-[var(--secondary-background)] rounded-2xl mx-auto my-4 p-2 border-2 border-dotted border-white' key={index}>
+            <div className='w-[80%] lg:w-[30%] bg-[var(--secondary-background)] rounded-2xl mx-auto my-4 p-2 border-2 border-dotted border-white' key={index}>
                 <div className='trancking-wider text-center p-1 border-b-2 border-b-[var(--background)]'>
                     <Title text={item.institutionName} variant='secondary'/>
                 </div>
