@@ -14,7 +14,7 @@ const navItems:NavLinksType[] = [
     { href: "/contact", label: "Contact Me",icon:<IoMdContact className={listClassname} />},
   ];
   const listitemClassname:string =
-    "flex flex-nowrap items-center space-x-2 hover:scale-105 text-[var(--secondary-text-color)]";
+    "flex flex-nowrap items-center space-x-2 hover:scale-105 text-[var(--secondary-text-color)] transition-all";
 
   export default function NavLinks() {
     const currentPath:string = usePathname();
@@ -23,7 +23,7 @@ const navItems:NavLinksType[] = [
         {navItems.map((item) => (
           <li key={item.href} className={`${listitemClassname} ${item.href==currentPath ? "border-b-4 border-[var(--background)] text-[var(--primary-text-color)]" : ""}`}>
             {item.icon}
-            <Link href={item.href} className={listClassname}>
+            <Link href={item.href} className={listClassname} prefetch>
               {item.label}
             </Link>
           </li>
