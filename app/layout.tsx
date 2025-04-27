@@ -3,6 +3,7 @@ import { Roboto_Mono } from "next/font/google";
 import "./styles/globals.css";
 import "./styles/typography.css";
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
