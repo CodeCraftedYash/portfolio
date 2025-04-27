@@ -29,7 +29,7 @@ const navItems:NavLinksType[] = [
         {navItems.map((item) => (
           <li key={item.href} className={`${listitemClassname} ${item.href==currentPath ? "border-l-2 border-[var(--secondary-text-color)] pl-2 " : ""}`}>
             {item.icon}
-            <Link href={item.href} className={listClassname}>
+            <Link href={item.href} className={listClassname} prefetch>
               {item.label}
             </Link>
           </li>
