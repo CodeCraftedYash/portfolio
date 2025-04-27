@@ -9,12 +9,12 @@ type BorderAnimationProps = {
 };
 
 export default function BorderAnimation({ children, className }: BorderAnimationProps) {
-  const sideVariants = {
+/*   const sideVariants = {
     top: { x: 0, y: 0 },
     right: { x: 0, y: 0 },
     bottom: { x: 0, y: 0 },
     left: { x: 0, y: 0 },
-  };
+  }; */
 
   return (
     <div className={`relative inline-block rounded-xl ${className}`}>
