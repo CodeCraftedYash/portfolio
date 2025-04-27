@@ -1,4 +1,3 @@
-import Title from "@/app/components/ui/Title"
 import { text1,text2,text3,text4, } from "@/app/data/selfIntroData"
 
 function SelfIntro() {
