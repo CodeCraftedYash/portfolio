@@ -1,0 +1,4 @@
+export const text1:string = "Hi, I’m Yash — a passionate and detail-oriented web developer with a strong foundation in HTML, CSS, JavaScript, React, and Next.js. I specialize in building responsive, accessible, and performance-focused web applications.";
+export const text2:string = "I am currently pursuing BSc in IT and have hands-on experience with modern tools like Tailwind CSS, TypeScript, and Framer Motion.";
+export const text3:string = "Currently, I'm focused on full-stack development, learning backend technologies like Node.js, Express, and MongoDB, while strengthening my DSA skills with C++.";
+export const text4:string = "I'm excited to contribute to real-world projects, solve meaningful problems, and keep growing in this fast-evolving tech space.";
